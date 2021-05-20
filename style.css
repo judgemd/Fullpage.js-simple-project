@@ -1,0 +1,40 @@
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.s1 {
+  background: url(page1.jpg);
+  background-size: cover;
+}
+
+.s2 {
+  background: url(page2.jpg);
+  background-size: cover;
+}
+
+.s2 h1 {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem;
+}
+
+.s3 {
+    background: url(page3.jpg);
+    background-size: cover;
+}
+
+.s3 h1 {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 4rem;
+}
+
+span {
+    background: #fff !important;
+}
+
+.fp-slidesNav.fp-bottom {
+    margin-left: 1em !important;
+}

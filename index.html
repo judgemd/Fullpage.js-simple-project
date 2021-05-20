@@ -8,10 +8,42 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Fullpage.js</title>
   </head>
   <body>
+    <div id="fullPage">
+      <div class="section s1">
+
+          <div class="slide">
+              <h1>The First Section</h1>
+          </div>
+
+          <div class="slide">
+              <h1>The First Section</h1>
+          </div>
+
+      </div>
+
+      <div class="section s2">
+        <h1>The Second Section</h1>
+      </div>
+
+      <div class="section s3">
+        <h1>The Third Section</h1>
+      </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
+    <script>
+      new fullpage("#fullPage", {
+        autoScrolling: true,
+        navigation: true,
+        navigationTooltips: ["Home", "About Us", "Contact"],
+        keyboardScrolling: true,
+        slidesNavigation: true,
+        controlArrows: false,
+      });
+    </script>
   </body>
 </html>
